@@ -1,3 +1,10 @@
+/*BugreportDAO.java
+Os métodos estão de acordo, sucintos, fazendo o seu papel com soluções de código bem otimizados. 
+Não vejo algo que eu consiga modificar que ficaria melhor o código. 
+As variáveis criadas em todas as classes e métodos vistos são padronizados, de facil compreensão e intuitivos;
+A única coisa que mudei é um pouco da identação do código, pois, para mim tem muitas linhas de código em branco,
+e estas estão em lugares desnecessários, enquanto algumas partes menos legiveis do código estão em linhas coladas.
+*/
 package br.edu.utfpr.dv.siacoes.dao;
 
 import java.sql.Connection;
@@ -15,28 +22,24 @@ import br.edu.utfpr.dv.siacoes.model.Module;
 import br.edu.utfpr.dv.siacoes.model.User;
 
 public class BugReportDAO {
-	
 	public BugReport findById(int id) throws SQLException{
 		Connection conn = null;
 		PreparedStatement stmt = null;
 		ResultSet rs = null;
-		
 		try{
 			conn = ConnectionDAO.getInstance().getConnection();
 			stmt = conn.prepareStatement("SELECT bugreport.*, \"user\".name " + 
 				"FROM bugreport INNER JOIN \"user\" ON \"user\".idUser=bugreport.idUser " +
 				"WHERE idBugReport = ?");
-		
 			stmt.setInt(1, id);
-			
 			rs = stmt.executeQuery();
-			
-			if(rs.next()){
+
+			if(rs.next())
 				return this.loadObject(rs);
-			}else{
-				return null;
-			}
-		}finally{
+			else
+				return null;	
+		}
+		finally{
 			if((rs != null) && !rs.isClosed())
 				rs.close();
 			if((stmt != null) && !stmt.isClosed())
@@ -54,7 +57,6 @@ public class BugReportDAO {
 		try{
 			conn = ConnectionDAO.getInstance().getConnection();
 			stmt = conn.createStatement();
-			
 			rs = stmt.executeQuery("SELECT bugreport.*, \"user\".name " +
 					"FROM bugreport INNER JOIN \"user\" ON \"user\".idUser=bugreport.idUser " +
 					"ORDER BY status, reportdate");
@@ -63,9 +65,9 @@ public class BugReportDAO {
 			while(rs.next()){
 				list.add(this.loadObject(rs));
 			}
-			
 			return list;
-		}finally{
+		}
+		finally{
 			if((rs != null) && !rs.isClosed())
 				rs.close();
 			if((stmt != null) && !stmt.isClosed())
@@ -84,11 +86,10 @@ public class BugReportDAO {
 		try{
 			conn = ConnectionDAO.getInstance().getConnection();
 			
-			if(insert){
+			if(insert)
 				stmt = conn.prepareStatement("INSERT INTO bugreport(idUser, module, title, description, reportDate, type, status, statusDate, statusDescription) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?)", Statement.RETURN_GENERATED_KEYS);
-			}else{
+			else
 				stmt = conn.prepareStatement("UPDATE bugreport SET idUser=?, module=?, title=?, description=?, reportDate=?, type=?, status=?, statusDate=?, statusDescription=? WHERE idBugReport=?");
-			}
 			
 			stmt.setInt(1, bug.getUser().getIdUser());
 			stmt.setInt(2, bug.getModule().getValue());
@@ -97,29 +98,25 @@ public class BugReportDAO {
 			stmt.setDate(5, new java.sql.Date(bug.getReportDate().getTime()));
 			stmt.setInt(6, bug.getType().getValue());
 			stmt.setInt(7, bug.getStatus().getValue());
-			if(bug.getStatus() == BugStatus.REPORTED){
+			if(bug.getStatus() == BugStatus.REPORTED)
 				stmt.setNull(8, Types.DATE);
-			}else{
+			else
 				stmt.setDate(8, new java.sql.Date(bug.getStatusDate().getTime()));
-			}
-			stmt.setString(9, bug.getStatusDescription());
 			
+			stmt.setString(9, bug.getStatusDescription());
 			if(!insert){
 				stmt.setInt(10, bug.getIdBugReport());
 			}
-			
 			stmt.execute();
 			
-			if(insert){
+			if(insert)
 				rs = stmt.getGeneratedKeys();
-				
-				if(rs.next()){
+				if(rs.next())
 					bug.setIdBugReport(rs.getInt(1));
-				}
-			}
 			
 			return bug.getIdBugReport();
-		}finally{
+		}
+		finally{
 			if((rs != null) && !rs.isClosed())
 				rs.close();
 			if((stmt != null) && !stmt.isClosed())
@@ -131,7 +128,6 @@ public class BugReportDAO {
 	
 	private BugReport loadObject(ResultSet rs) throws SQLException{
 		BugReport bug = new BugReport();
-		
 		bug.setIdBugReport(rs.getInt("idBugReport"));
 		bug.setUser(new User());
 		bug.getUser().setIdUser(rs.getInt("idUser"));
@@ -144,8 +140,6 @@ public class BugReportDAO {
 		bug.setStatus(BugReport.BugStatus.valueOf(rs.getInt("status")));
 		bug.setStatusDate(rs.getDate("statusDate"));
 		bug.setStatusDescription(rs.getString("statusDescription"));
-		
 		return bug;
 	}
-
 }
