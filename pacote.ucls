@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="br.edu.utfpr.dv.siacoes.bo" project="siacoes" 
+    file="/siacoes/src/main/java/br/edu/utfpr/dv/siacoes/bo" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="168" x="776" y="487"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="br.edu.utfpr.dv.siacoes.ldap" project="siacoes" 
+    file="/siacoes/src/main/java/br/edu/utfpr/dv/siacoes/ldap" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="178" x="766" y="577"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="br.edu.utfpr.dv.siacoes.util" project="siacoes" 
+    file="/siacoes/src/main/java/br/edu/utfpr/dv/siacoes/util" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="171" x="813" y="847"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="br.edu.utfpr.dv.siacoes.view" project="siacoes" 
+    file="/siacoes/src/main/java/br/edu/utfpr/dv/siacoes/view" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="180" x="1137" y="217"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="5" language="java" name="br.edu.utfpr.dv.siacoes.log" project="siacoes" 
+    file="/siacoes/src/main/java/br/edu/utfpr/dv/siacoes/log" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="171" x="1173" y="667"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="6" language="java" name="br.edu.utfpr.dv.siacoes.service" project="siacoes" 
+    file="/siacoes/src/main/java/br/edu/utfpr/dv/siacoes/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="196" x="1068" y="577"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="7" language="java" name="br.edu.utfpr.dv.siacoes.components" project="siacoes" 
+    file="/siacoes/src/main/java/br/edu/utfpr/dv/siacoes/components" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="225" x="757" y="307"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="8" language="java" name="br.edu.utfpr.dv.siacoes" project="siacoes" 
+    file="/siacoes/src/main/java/br/edu/utfpr/dv/siacoes" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="151" x="1325" y="577"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="9" language="java" name="br.edu.utfpr.dv.siacoes.sign" project="siacoes" 
+    file="/siacoes/src/main/java/br/edu/utfpr/dv/siacoes/sign" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="178" x="506" y="577"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="10" language="java" name="br.edu.utfpr.dv.siacoes.model" project="siacoes" 
+    file="/siacoes/src/main/java/br/edu/utfpr/dv/siacoes/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="189" x="1091" y="937"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="11" language="java" name="br.edu.utfpr.dv.siacoes.images" project="siacoes" 
+    file="/siacoes/src/main/java/br/edu/utfpr/dv/siacoes/images" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="196" x="422" y="217"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="12" language="java" name="br.edu.utfpr.dv.siacoes.widgetset" project="siacoes" 
+    file="/siacoes/src/main/java/br/edu/utfpr/dv/siacoes/widgetset" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="210" x="658" y="217"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="13" language="java" name="br.edu.utfpr.dv.siacoes.report.dataset.v1" project="siacoes" 
+    file="/siacoes/src/main/java/br/edu/utfpr/dv/siacoes/report/dataset/v1" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="251" x="527" y="667"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="14" language="java" name="br.edu.utfpr.dv.siacoes.window" project="siacoes" 
+    file="/siacoes/src/main/java/br/edu/utfpr/dv/siacoes/window" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="198" x="1043" y="397"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="15" language="java" name="br.edu.utfpr.dv.siacoes.dao" project="siacoes" 
+    file="/siacoes/src/main/java/br/edu/utfpr/dv/siacoes/dao" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="175" x="874" y="757"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="16" language="java" name="br.edu.utfpr.dv.siacoes.report" project="siacoes" 
+    file="/siacoes/src/main/java/br/edu/utfpr/dv/siacoes/report" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="189" x="908" y="217"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <dependency id="17">    
+    <bendpoint x="1016" y="577"/>    
+    <bendpoint x="1058" y="667"/>    
+    <bendpoint x="1100" y="757"/>    
+    <bendpoint x="1100" y="847"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="18">    
+    <bendpoint x="454" y="397"/>    
+    <bendpoint x="454" y="487"/>    
+    <bendpoint x="454" y="577"/>    
+    <bendpoint x="412" y="667"/>    
+    <bendpoint x="412" y="757"/>    
+    <bendpoint x="412" y="847"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="19">    
+    <bendpoint x="1163" y="757"/>    
+    <bendpoint x="1163" y="847"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="20">    
+    <bendpoint x="1014" y="847"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="21">    
+    <bendpoint x="433" y="307"/>    
+    <bendpoint x="433" y="397"/>    
+    <bendpoint x="433" y="487"/>    
+    <bendpoint x="433" y="577"/>    
+    <bendpoint x="433" y="667"/>    
+    <bendpoint x="454" y="757"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="22">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="23">    
+    <bendpoint x="974" y="487"/>    
+    <bendpoint x="974" y="577"/>    
+    <bendpoint x="862" y="667"/>    
+    <bendpoint x="843" y="757"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="25">    
+    <bendpoint x="517" y="397"/>    
+    <bendpoint x="475" y="487"/>    
+    <bendpoint x="475" y="577"/>    
+    <bendpoint x="475" y="667"/>    
+    <bendpoint x="475" y="757"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="26">    
+    <bendpoint x="1271" y="487"/>    
+    <bendpoint x="1294" y="577"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="27">    
+    <bendpoint x="1037" y="487"/>    
+    <bendpoint x="1037" y="577"/>    
+    <bendpoint x="1037" y="667"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="28">    
+    <bendpoint x="883" y="667"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="29">    
+    <bendpoint x="1079" y="667"/>    
+    <bendpoint x="1079" y="757"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="30">    
+    <bendpoint x="1374" y="667"/>    
+    <bendpoint x="1374" y="757"/>    
+    <bendpoint x="1374" y="847"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="31">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="32">    
+    <bendpoint x="1099" y="307"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="33">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="34">    
+    <bendpoint x="745" y="487"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="35">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="36">    
+    <bendpoint x="454" y="667"/>    
+    <bendpoint x="433" y="757"/>    
+    <bendpoint x="433" y="847"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="37">    
+    <bendpoint x="1485" y="307"/>    
+    <bendpoint x="1485" y="397"/>    
+    <bendpoint x="1485" y="487"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="38">    
+    <bendpoint x="1012" y="307"/>    
+    <bendpoint x="1012" y="397"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="39">    
+    <bendpoint x="735" y="577"/>    
+    <bendpoint x="829" y="667"/>    
+    <bendpoint x="822" y="757"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="40">    
+    <bendpoint x="1271" y="397"/>    
+    <bendpoint x="1334" y="487"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="41">    
+    <bendpoint x="808" y="667"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="42">    
+    <bendpoint x="1464" y="487"/>    
+    <bendpoint x="1527" y="577"/>    
+    <bendpoint x="1527" y="667"/>    
+    <bendpoint x="1527" y="757"/>    
+    <bendpoint x="1527" y="847"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="43">    
+    <bendpoint x="496" y="307"/>    
+    <bendpoint x="496" y="397"/>    
+    <bendpoint x="496" y="487"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="44">    
+    <bendpoint x="995" y="577"/>    
+    <bendpoint x="995" y="667"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="45">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="46">    
+    <bendpoint x="1142" y="667"/>    
+    <bendpoint x="1142" y="757"/>    
+    <bendpoint x="1142" y="847"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="47">    
+    <bendpoint x="775" y="397"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="48">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="49">    
+    <bendpoint x="641" y="397"/>    
+    <bendpoint x="641" y="487"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="50">    
+    <bendpoint x="1121" y="757"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="51">    
+    <bendpoint x="1313" y="487"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="52">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="53">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="54">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="55">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="56">    
+    <bendpoint x="1506" y="307"/>    
+    <bendpoint x="1506" y="397"/>    
+    <bendpoint x="1506" y="487"/>    
+    <bendpoint x="1506" y="577"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="57">    
+    <bendpoint x="1548" y="307"/>    
+    <bendpoint x="1548" y="397"/>    
+    <bendpoint x="1548" y="487"/>    
+    <bendpoint x="1548" y="577"/>    
+    <bendpoint x="1548" y="667"/>    
+    <bendpoint x="1548" y="757"/>    
+    <bendpoint x="1548" y="847"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="58">    
+    <bendpoint x="714" y="577"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="59">    
+    <bendpoint x="1292" y="307"/>    
+    <bendpoint x="1292" y="397"/>    
+    <bendpoint x="1292" y="487"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="60">    
+    <bendpoint x="679" y="757"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="61">    
+    <bendpoint x="496" y="667"/>    
+    <bendpoint x="517" y="757"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="62">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="63">    
+    <bendpoint x="496" y="757"/>    
+    <bendpoint x="496" y="847"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="64">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
